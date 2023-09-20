@@ -3,6 +3,8 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Welcome2 from './components/Welcome2';
 import Welcome3 from './components/Welcome3';
+import Greeting from './components/Greeting';
+import Greeting2 from './components/Greeting2';
 
 function App() {
   return (
@@ -11,6 +13,9 @@ function App() {
       <Welcome/>
       <Welcome2/>
       <Welcome3 name="Parmendra"/>
+
+      <Greeting/>
+      <Greeting2 name ="Kumar"/>
     </div>
   );
 }
