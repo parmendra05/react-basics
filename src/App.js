@@ -5,7 +5,9 @@ import Welcome2 from './components/Welcome2';
 import Welcome3 from './components/Welcome3';
 import Greeting from './components/Greeting';
 import Greeting2 from './components/Greeting2';
-
+import { FirstComponent, SecondComponent } from './components/MyComponent';
+// Another Ways
+import { FirstComponent as FC, SecondComponent as SC} from './components/MyComponent';
 function App() {
   return (
     <div className="App">
@@ -16,6 +18,12 @@ function App() {
 
       <Greeting/>
       <Greeting2 name ="Kumar"/>
+      
+      <FirstComponent/>
+      <SecondComponent/>
+      <hr/>
+      <FC/>
+      <SC/>
     </div>
   );
 }
