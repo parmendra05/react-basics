@@ -37,7 +37,7 @@ function App() {
 <Student 
 firstName="Parmendra"
 lastName="Kumar"
-email="pk@gm.com"
+email="pk@gmail.com"
 />
     </div>
   );
