@@ -13,6 +13,7 @@ import HelloJSXWorld2 from './components/HelloJSXWorld2';
 import HelloJSXWorld3 from './components/HelloJSXWorld3';
 import Student from './components/Student';
 import EventHandling from './components/EventHandling';
+import ConditionRendering from './components/ConditionRendering';
 function App() {
   return (
     <div className="App"> {/*
@@ -35,6 +36,7 @@ function App() {
       <hr/>
       <HelloJSXWorld3/>
 */}
+{ /*
 <Student 
 firstName="Parmendra"
 lastName="Kumar"
@@ -42,6 +44,8 @@ email="pk@gmail.com"
 />
 <hr/>
 <EventHandling/>
+*/}
+<ConditionRendering/>
     </div>
   );
 }
