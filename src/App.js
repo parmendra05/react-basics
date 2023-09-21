@@ -8,9 +8,12 @@ import Greeting2 from './components/Greeting2';
 import { FirstComponent, SecondComponent } from './components/MyComponent';
 // Another Ways
 import { FirstComponent as FC, SecondComponent as SC} from './components/MyComponent';
+import HelloJSXWorld from './components/HelloJSXWorld';
+import HelloJSXWorld2 from './components/HelloJSXWorld2';
+import HelloJSXWorld3 from './components/HelloJSXWorld3';
 function App() {
   return (
-    <div className="App">
+    <div className="App"> {/*
       <h1>Hello React</h1>
       <Welcome/>
       <Welcome2/>
@@ -23,7 +26,11 @@ function App() {
       <SecondComponent/>
       <hr/>
       <FC/>
-      <SC/>
+  <SC/> */}
+      <HelloJSXWorld/>
+      <HelloJSXWorld2/>
+      <hr/>
+      <HelloJSXWorld3/>
     </div>
   );
 }
