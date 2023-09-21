@@ -12,6 +12,7 @@ import HelloJSXWorld from './components/HelloJSXWorld';
 import HelloJSXWorld2 from './components/HelloJSXWorld2';
 import HelloJSXWorld3 from './components/HelloJSXWorld3';
 import Student from './components/Student';
+import EventHandling from './components/EventHandling';
 function App() {
   return (
     <div className="App"> {/*
@@ -39,6 +40,8 @@ firstName="Parmendra"
 lastName="Kumar"
 email="pk@gmail.com"
 />
+<hr/>
+<EventHandling/>
     </div>
   );
 }
