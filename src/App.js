@@ -11,6 +11,7 @@ import { FirstComponent as FC, SecondComponent as SC} from './components/MyCompo
 import HelloJSXWorld from './components/HelloJSXWorld';
 import HelloJSXWorld2 from './components/HelloJSXWorld2';
 import HelloJSXWorld3 from './components/HelloJSXWorld3';
+import Student from './components/Student';
 function App() {
   return (
     <div className="App"> {/*
@@ -27,10 +28,17 @@ function App() {
       <hr/>
       <FC/>
   <SC/> */}
+  {/*
       <HelloJSXWorld/>
       <HelloJSXWorld2/>
       <hr/>
       <HelloJSXWorld3/>
+*/}
+<Student 
+firstName="Parmendra"
+lastName="Kumar"
+email="pk@gm.com"
+/>
     </div>
   );
 }
